@@ -25,7 +25,7 @@ variable "environment" {
 variable "public_subnets" {
   type        = map(string)
   description = "map of public subnets to create"
-
+  default     = { "public-subnet-1" : "10.0.14.1", "public-subnet-2" : "10.0.14.2" }
 }
 
 variable "billing_code" {
