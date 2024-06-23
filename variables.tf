@@ -28,6 +28,7 @@ variable "public_subnets" {
   default     = { "public-subnet-1" : "10.0.14.1", "public-subnet-2" : "10.0.14.2" }
 }
 
+
 variable "billing_code" {
   type        = string
   description = "Requrired billing code"
